@@ -1,0 +1,13 @@
+models:
+  - name: bronze_parking_violation_codes
+    description: Raw data representing the violation codes and their fees.
+    columns:
+      - name: violation_code
+        description: Standardized code of the violation.
+      - name: definition
+        description: Description of the violation for a respective code.
+      - name: manhattan_96th_st_below
+        description: fee in $USD.
+      - name: all_other_areas
+        description: fee in $USD.
+      
