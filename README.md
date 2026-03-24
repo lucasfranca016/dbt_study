@@ -35,7 +35,7 @@ The repository is structured around the following topics:
 
 Below is the architecture used in this project:
 
-![Architecture](./images/{project_architecture}.png)
+![Architecture](images/project_architecture.png)
 
 The project follows a Medallion Architecture (Bronze, Silver, Gold) approach to organize data transformations and ensure scalability and maintainability.
 
